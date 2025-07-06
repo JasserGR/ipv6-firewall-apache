@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  webserver:
+    image: httpd
+    container_name: webserver
+    networks:
+      ipv6net:
+        ipv6_address: 2001:db8:1::2
+    ports:
+      - "80:80"
+    restart: unless-stopped
+
+networks:
+  ipv6net:
+    external: true
