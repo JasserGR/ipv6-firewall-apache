@@ -92,6 +92,7 @@ telnet 2001:db8:1::2 8080   # ❌ Bloqué
 ```arduino
 📁 ipv6-firewall-apache
  ┣ 📄 README.md
+ ┣ 📄 docker-compose.yml
  ┣ 📄 rapport.md
  ┣ 🔧 firewall-rules.sh
  ┣ 🐳 setup-docker.sh
